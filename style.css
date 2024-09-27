@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #735751;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.msg_container{
+    margin-top: 200px;
+    gap: 5rem;
+    margin-bottom: 600px;
+}
+
+.msg{
+    
+    font-weight: 700;
+    
+}
+
+.container{
+    
+    height: 30rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.game{
+    margin-top: 10px;
+    width: 24rem;
+    height:24rem;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 8rem;
+    width: 8rem;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 10px;
+    font-size: 6rem;
+    border: none;
+    box-shadow: 3px 2px #000000;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(49, 20, 20);
+    }
+
+.reset-btn{
+    margin-top: 3rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    border: none;
+    background-color:  rgb(49, 20, 20);
+    color: #ffff;
+}
+
+.new-btn{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    border: none;
+    background-color:  rgb(49, 20, 20);
+    color: #ffff;
+    margin-top: 1.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+.tenor-gif-embed{
+    width : 200px;
+    position: absolute;
+    margin-left: 45%;
+    transition: width 10s ease-out;
+    padding-top: 2rem;
+}
+
+@media (width < 900px) {
+    .tenor-gif-embed{
+        margin-left: 35%;
+    }
+}
+
+@media (width < 1050px) {
+    .tenor-gif-embed{
+        margin-left: 40%;
+    }
+}
+
+@media (width < 450px) {
+    .tenor-gif-embed{
+        margin-left: 25%;
+    }
+}
